@@ -17,6 +17,7 @@ sin(x) + sin^2(x)+. . sin^n(x)
 ### Блок-схема
 
 <img width="438" height="546" alt="DZlab8 drawio" src="https://github.com/user-attachments/assets/935435f9-db90-40c6-9233-6c0a837526ed" />  
+
 ## 2. Реализация программы 
 ```C
 #define _CRT_SECURE_NO_DEPRECATE
