@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #define _USE_MATH_DEFINES
 #include <math.h>
-//Я 19 вариант
+//Гџ 19 РІР°СЂРёР°РЅС‚
 
 taskID();
 
@@ -26,16 +26,17 @@ taskID()
 
 
 	puts("sin(x)+sin^2(x)+sin^3(x)+...+sin^n(x)");
-	puts("Введите значение х");
+	puts("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ С…");
 	scanf("%lf", &x);
-	puts("Введите значение n");
+	puts("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ n");
 	scanf("%i", &n);
 	for (int start = 1; start <= n; start++)
 	{
 		res += pow(sin(x), start);
 
 	}
-	printf("Результат равен >>> %.3f", res);
+	printf("Р РµР·СѓР»СЊС‚Р°С‚ СЂР°РІРµРЅ >>> %.3f", res);
+
 
 
 }
